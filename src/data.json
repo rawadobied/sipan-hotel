@@ -1,0 +1,42 @@
+[
+  {
+    "id": "12b9e920-1be3-4e9a-b3fc-9a6f6d37e54c",
+    "name": "Single Room",
+    "description": " 30 Sqm - Quality Beds (King or Twin Size) - Executive Desk - Tea and Coffee Facilities - Smart LED TV Junior SUITE",
+    "maxPerson": "2",
+    "img":"/images/single.jpg",
+    "moreDescription": "All prices are in USD and included 10% service charge.-Check in at 14:00 and check out at 12:00.-International breakfast buffet is included in daily rate.-Free entrance to the swimming pool and gym. -Free Wi Fi access."
+  },
+  {
+    "id": "b86c6dcd-c3dc-4893-8347-261127a711ea",
+    "name": "Twin Room",
+    "maxPerson": "2",
+    "description": " 30 Sqm - Quality Beds (King or Twin Size) - Executive Desk - Tea and Coffee Facilities - Smart LED TV Junior SUITE\n",
+    "img":"/images/twin.jpg",
+    "moreDescription": "All prices are in USD and included 10% service charge.-Check in at 14:00 and check out at 12:00.-International breakfast buffet is included in daily rate.-Free entrance to the swimming pool and gym. -Free Wi Fi access."
+  },
+  {
+    "id": "7914eb95-9248-4fd0-ba35-a88a9e36df05",
+    "name": "Triple room",
+    "description": " 30 Sqm - 3 Quality Beds (Twin Size) - Executive Desk - Tea and Coffee Facilities - Smart LED TV Junior SUITE",
+    "maxPerson": "3",
+    "img":"/images/triple.jpg",
+    "moreDescription": "All prices are in USD and included 10% service charge.-Check in at 14:00 and check out at 12:00.-International breakfast buffet is included in daily rate.-Free entrance to the swimming pool and gym. -Free Wi-Fi access."
+
+  },
+  {   "id": "076a9df9-704f-46ac-9b30-7f3603898026",
+    "name": "Junior SUITE",
+    "maxPerson": "2",
+    "description":" 39 sqm - Premium quality bed (King size) - Lounge - LED Smart TV - Tea & Coffee facility - Executive desk",
+    "img":"images/IMG_4829.png",
+    "moreDescription": "All prices are in USD and included 10% service charge.-Check in at 14:00 and check out at 12:00.-International breakfast buffet is included in daily rate.-Free entrance to the swimming pool and gym. -Free Wi-Fi access."
+
+  },
+  {   "id": "2dce0042-b9ab-45b3-b93b-b7f1e65f6c8c",
+    "name": "LUXURY SUITE",
+    "maxPerson": "5",
+    "description":" 94 sqm - 2 SEPARATE ROOMS – 2 LIVING ROOM - LED Smart TV - Pool view, City view - Tea & Coffee facility - Executive desk",
+    "img":"/images/4780.jpg",
+    "moreDescription": "All prices are in USD and included 10% service charge.-Check in at 14:00 and check out at 12:00.-International breakfast buffet is included in daily rate.-Free entrance to the swimming pool and gym. -Free Wi-Fi access."
+  }
+]

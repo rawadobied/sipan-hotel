@@ -1,0 +1,27 @@
+.openImg-container{
+  margin-top: -1.5rem;
+  z-index: 1001;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh + 20px);
+  padding: calc(100vw / 5);
+  background-color: rgba(0,0,0,0.8);
+  //-webkit-animation-name: sliding;
+  //animation-name: sliding;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 0.5s !important;
+  animation-duration: 0.5s !important;
+  -webkit-transition-duration: 0.5s !important;
+  transition-duration: 0.5s !important;
+  //-webkit-animation-iteration-count: infinite !important;
+  //animation-delay: 2s;
+  //animation-iteration-count: infinite;
+
+  img{
+    border-radius: 0.3rem;
+  }
+
+}

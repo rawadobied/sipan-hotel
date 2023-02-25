@@ -1,0 +1,23 @@
+.gallery-wrapper{
+  display: grid;
+  //width: 90%;
+  grid-template-columns: repeat(auto-fill,30rem);
+  //grid-auto-flow: column;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0 auto;
+  .gallery-img{
+    width: 100%;
+    overflow: hidden;
+    .single-img{
+      height: 20rem;
+      transition: all 0.5s ease-in-out;
+      cursor: pointer;
+      position: relative;
+    }
+    .single-img:hover{
+      transform: scale(1.1);
+    }
+  }
+
+}

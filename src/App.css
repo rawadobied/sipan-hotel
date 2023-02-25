@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:ital,wght@0,400;1,700&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@100&display=swap');
+@import "animation.scss";
+:root{
+  --main-font:'Source Sans Pro',sans-serif;
+  --secondary-font:'Herr Von Muellerhoff',cursive;
+  --body-font:'Imbue', serif;
+  --main-font-color-dark:#252525;
+  --secondary-font-color:#c59d5f;
+  --bod-font-color:#515151;
+  --playball:'Playball', cursive;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 900px){
+.line{
+  max-width: 11.4rem !important;
+     }
+  .restaurant-info{
+    display: flex !important;
+    align-items: center !important;
+  }
+  .restaurant-info > div{
+    flex: 1;
+  }
+  .padding-right{
+    padding-right: 7rem;
+  }
+}
+

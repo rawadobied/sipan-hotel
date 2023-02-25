@@ -1,0 +1,88 @@
+.ContactUs-Container {
+  overflow: hidden;
+  //margin-top: 1.5rem;
+  .SingleRoom-mainImg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/kv-contact-us-xs.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    .border {
+      border-bottom: 5rem solid rgba(2, 37, 115, 0.7);
+      //border-top: 5rem solid rgba(2, 37, 115, 0.7);
+      width: 100%;
+      position: absolute;
+      height: 100%;
+    }
+  }
+
+  .SingleRoom-galleryWrapper {
+    padding: 0.5rem;
+    background-color: #e8e8de57;
+    //margin-top: 4rem;
+  }
+
+  .SingleRoomTitle-container {
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      color: var(--bod-font-color);
+    }
+
+  }
+
+  .contact-title {
+    color: var(--secondary-font-color);
+    font-family: var(--playball);
+    font-size: 3rem;
+    position: relative;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1em;
+    //text-transform: lowercase;
+    text-transform: capitalize;
+  }
+
+  .details {
+    width: 100%;
+    font-family: var(--playball);
+    font-size: 1.7rem;
+  }
+
+  .contactUs-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+    gap: 1.5rem;
+
+    .contactUs-note {
+      display: flex;
+      flex-direction: column;
+      /* gap: 1.5rem; */
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: 2rem;
+      .details{
+        margin-top: 4rem;
+        font-size: 3rem;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,49 @@
+.booking-container{
+  width: 100%;
+  padding: 1rem;
+  //justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,20rem);
+  grid-gap: 1rem;
+  background-color: rgba(2, 37, 115, 0.7);
+
+ label ,span {
+   font-size: 1.5rem;
+   color: grey;
+   border-color: white !important;
+ }
+  .MuiInput-underline:before{
+    border-color: white !important;
+
+  }
+  .MuiSelect-icon{
+    color: white;
+  }
+  .MuiButton-containedPrimary{
+    background-color: var(--secondary-font-color) !important;
+    span{
+      color: #303f9f;
+    }
+  }
+  .MuiButton-containedPrimary:hover {
+    background-color: #303f9f !important;
+    span{
+      color: white;
+    };
+  }
+
+  fieldset{
+    border-color: white !important;
+  }
+  div{
+    border-color: white !important;
+    font-size: 1.5rem;
+    color:  grey;
+  ;
+
+
+  }
+}

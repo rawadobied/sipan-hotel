@@ -1,0 +1,33 @@
+.luxury-rooms{
+  //background: url("/images/IMG_20201030_163630_308.jpg") center/cover no-repeat;
+  margin-top: 1.5rem;
+}
+.between{
+  min-height:65vh ;
+  display: flex;
+  align-items: center;
+}
+.discover-our-menu{
+  margin-top: 1.5rem;
+  .restaurant-description{
+    padding-top: 3rem;
+    margin-bottom: 0;
+
+  }
+}
+.image-group{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  //grid-template-rows: repeat(auto-fit,16rem);
+  overflow: hidden;
+  grid-gap:1.5rem;
+  //height: 46rem;
+  //padding: 2rem;
+
+  img{
+    border-radius: 2px;
+    width: 100%;
+    box-shadow: 1px -2px 7px 1px #efefef;
+    transform: rotate(-20deg);
+  }
+}
