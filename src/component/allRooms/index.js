@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-// import './style.scss'
+import './style.scss'
 import data from '../../data'
 
 const AllRooms = (props) => {

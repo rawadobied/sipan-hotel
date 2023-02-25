@@ -153,7 +153,10 @@ h1 , h2, h3, h4{
 .hero{
     width: 100%;
     height: 100vh;
-    //background-image: url('/images/IMG_20201030_163504_789.jpg');
+    background-image: url('~/public/images/IMG_20201030_163504_789.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     text-align: center;

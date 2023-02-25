@@ -4,20 +4,20 @@ import ContactHeader from '../component/contactHeader'
 import Booking from "../component/booking";
 
 const Header = ({hero}) => {
-         const [page,setPage] = useState('')
+        const [page, setPage] = useState('')
         const [scroll, setScroll] = useState(0)
         const [toggleOpen, setToggleOpen] = useState('close')
-    useEffect(()=>{
-        window.addEventListener('scroll',()=>setScroll(window.scrollY))
-        setPage(window.location.pathname)
-        console.log(window.location.pathname)
-    },[])
+        useEffect(() => {
+            window.addEventListener('scroll', () => setScroll(window.scrollY))
+            setPage(window.location.pathname)
+            console.log(window.location.pathname)
+        }, [])
         return (
 
             <>
-                <div className={`header ${toggleOpen} ${scroll > 10?'scrolled':''}`}>
+                <div className={`header ${toggleOpen} ${scroll > 10 ? 'scrolled' : ''}`}>
                     {
-                        scroll < 10 &&   <ContactHeader/>
+                        scroll < 10 && <ContactHeader/>
 
                     }
                     <div className="container">
@@ -29,16 +29,21 @@ const Header = ({hero}) => {
                             <a href="/home" className="logo"><img src={'/images/1.png'}/></a>
                             <ul className="nav-list">
                                 <li className="nav-item">
-                                    <a href="/home" className={`nav-link ${page && page==='/home'?'active':''}`}>Home</a>
+                                    <a href="/home"
+                                       className={`nav-link ${page && page === '/home' ? 'active' : ''}`}>Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/gallery" className={`nav-link ${page && page==='/gallery'?'active':''}`}>Gallery</a>
+                                    <a href="/gallery"
+                                       className={`nav-link ${page && page === '/gallery' ? 'active' : ''}`}>Gallery</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/rooms" className={`nav-link ${page && page==='/rooms'?'active':''}`}>Rooms & Suites</a>
+                                    <a href="/rooms" className={`nav-link ${page && page === '/rooms' ? 'active' : ''}`}>Rooms
+                                        & Suites</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/contactus" className={`nav-link ${page && page==='/contactus'?'active':''}`}>Contact Us</a>
+                                    <a href="/contactus"
+                                       className={`nav-link ${page && page === '/contactus' ? 'active' : ''}`}>Contact
+                                        Us</a>
                                 </li>
 
                                 {/*<li className="nav-item">*/}

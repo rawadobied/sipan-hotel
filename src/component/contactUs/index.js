@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-// import './style.scss'
+import './style.scss'
 import FormContact from "../form";
 
 const ContactUs = (props) => {
